@@ -1,8 +1,8 @@
-vim:
+install_vim:
 	cp -i -v .vimrc ~/
-nvim:
-	cp i -v nvim ~/.config/nvim
+install_nvim:
+	cp -i -v -r nvim ~/.config/
 pull_nvim:
 	cp -r ~/.config/nvim .
-install: vim nvim
+install: install_vim install_nvim
 
