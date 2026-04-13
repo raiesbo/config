@@ -1,0 +1,27 @@
+# Tmux Commands
+
+tmux			# Init session
+tmux ls			# Lists sessions
+tmux attach		# Attaches terminal to session
+			# If only one session, automatted attachment
+			# otherwise, need to specify the session ID
+tmux detach		# Detach terminal from session
+
+# Windows
+(Ctrl + b) + c		# Start a separated window
+(Ctrl + b) + I		# Install and set pluggins
+
+# Panes
+(Ctrl + b) + %		# Verstical split
+(Ctrl + b) + "		# Horizontal split
+(Ctrl + b) + {arrow}	# Pane navigation
+
+# Modes
+(Ctrl + b) + :		# Enter command mode
+
+# Commands:
+- rename_window +{name} # Updates the window name
+
+Notes:
+The (Ctrl + b) part of most commands is also called "leader" or represented as <leader> when written in documentation.
+
